@@ -7,6 +7,6 @@ public class CuentaDigital extends CuentaBancaria {
 
     @Override
     public double calcularInteres() {
-        return saldo * 0.03; // 3% de interés
+        return saldo * 0.03; 
     }
 }
