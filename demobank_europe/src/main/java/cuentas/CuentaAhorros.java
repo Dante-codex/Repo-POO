@@ -7,6 +7,6 @@ public class CuentaAhorros extends CuentaBancaria {
 
     @Override
     public double calcularInteres() {
-        return saldo * 0.05; // 5% de interés
+        return saldo * 0.05;
     }
 }
