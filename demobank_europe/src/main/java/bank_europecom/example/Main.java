@@ -20,7 +20,7 @@ public class Main {
             System.out.print("Seleccione una opcion: ");
             
             int opcion = scanner.nextInt();
-            scanner.nextLine(); // Limpiar buffer
+            scanner.nextLine(); 
 
             switch (opcion) {
                 case 1:
@@ -36,7 +36,7 @@ public class Main {
                         System.out.println("3. Cuenta Digital");
                         System.out.print("Ingrese opción: ");
                         int tipoCuenta = scanner.nextInt();
-                        scanner.nextLine(); // Limpiar buffer
+                        scanner.nextLine(); 
 
                         CuentaBancaria cuenta = switch (tipoCuenta) {
                             case 1 -> new CuentaCorriente();
