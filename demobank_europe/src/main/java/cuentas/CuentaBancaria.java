@@ -6,7 +6,7 @@ public abstract class CuentaBancaria {
     protected String numeroCuenta;
     protected double saldo;
 
-    // Constructor SIN parámetros: genera número de cuenta y saldo inicial en 0
+    // Constructor: genera número de cuenta y saldo inicial en 0
     public CuentaBancaria() {
         this.numeroCuenta = generarNumeroCuenta();
         this.saldo = 0;
